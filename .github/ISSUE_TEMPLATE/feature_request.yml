@@ -3,7 +3,7 @@ description: File a feature request
 title: "[Feat]: "
 labels: ["enhancement", "good first issue"]
 assignees:
-  - sonichigo
+  - krishguptadev
 body:
   - type: markdown
     attributes:
