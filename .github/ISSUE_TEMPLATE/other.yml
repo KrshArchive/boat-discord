@@ -1,33 +1,33 @@
-name: Feature Request
-description: File a feature request
-title: "[FEAT]: <description>"
-labels: ["enhancement", "good first issue"]
+name: Other
+description: Use this for any other issues. PLEASE do not create blank issues
+title: "[OTHER]: <description>"
+labels: ["🚦 status: awaiting triage"]
 assignees: [krishguptadev]
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this feature request!
-
+      value: "# Other issue"
   - type: textarea
-    id: detailed-description
+    id: issuedescription
     attributes:
-      label: Detailed Description
-      description: Add a detailed description of the feature request.
-      placeholder: A detailed description of the feature request.
-      value: "This feature would be cool to have ....."
+      label: What would you like to share?
+      description: Provide a clear and concise explanation of your issue.
     validations:
       required: true
-
-  - type: checkboxes
-    id: contributing
+  - type: textarea
+    id: extrainfo
     attributes:
-      label: Contributing
-      description: You accept that you've read the [Contributing](https://github.com/krishguptadev/boat-discord/blob/main/contributing.md)
+      label: Additional information
+      description: Is there anything else we should know about this issue?
+    validations:
+      required: false
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Would you like to work on this issue?
       options:
-        - label: I have read the project's contribution guidelines.
-          required: true
-
+        - label: Yes I want to work on this issue!
+          required: false
   - type: checkboxes
     id: code-of-conduct
     attributes:
@@ -36,7 +36,6 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-
   - type: textarea
     attributes:
         label: Anything else?

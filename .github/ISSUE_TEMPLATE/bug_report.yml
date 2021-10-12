@@ -1,9 +1,8 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "[BUG]: <description>"
 labels: ["💻 aspect: code", "🛠 goal: fix", "🚦 status: awaiting triage"]
-assignees:
-  - krishguptadev
+assignees: [krishguptadev]
 body:
   - type: markdown
     attributes:
